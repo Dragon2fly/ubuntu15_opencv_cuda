@@ -12,6 +12,7 @@ sudo apt-get -y install libopencv-dev build-essential cmake git libgtk2.0-dev pk
 
 sudo su
 ln -s /usr/lib/nvidia-346/libnvcuvid.so /usr/lib/libnvcuvid.so && ln -s /usr/lib/nvidia-346/libnvcuvid.so.1 /usr/lib/libnvcuvid.so.1
+exit
 
 git clone https://github.com/Itseez/opencv.git
 git clone https://github.com/Itseez/opencv_contrib.git
