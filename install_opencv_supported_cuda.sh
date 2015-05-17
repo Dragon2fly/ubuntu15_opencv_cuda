@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 sudo add-apt-repository -y ppa:webupd8team/y-ppa-manager
+sudo apt-get update
 sudo apt-get install synaptic vlc y-ppa-manager openjdk-7-jre unace unrar zip unzip p7zip-full p7zip-rar rar
 
 sudo apt-get install python-numpy python3-numpy python-pip python3-pip
